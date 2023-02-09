@@ -1,2 +1,6 @@
 # LDL
-LDL (Lighthouse Development Log) is a simple static site that describes all of our latest Lighthouse changes.
+
+LDL (Lighthouse Development Log), publicly referred to as the Lighthouse Wire, is a simple static site that facilitates engineer-led blog posts regarding the development progress of Project Lighthouse
+
+## License Information
+See the LICENSE file for license information.
