@@ -24,33 +24,82 @@
         <div class="Layout Layout--divided">
             <div class="Layout-main">
 
-                <div class="blankslate">
+            <div class="TimelineItem">
+            <div class="TimelineItem-badge color-bg-success-emphasis color-fg-on-emphasis">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="octicon">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
+                </svg>
+            </div>
+            <div class="TimelineItem-body">
+                <span><b>Zaprit</b> opened <b><a href="https://github.com/LBPUnion/ProjectLighthouse/pull/662">Profile Blocking</a></b> on <b>February 8th, 2023</b>.</span>
+                <div class="ml-2">
+                    <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
+                    </svg>
+                        27 commits<br>
+                    <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
+                    </svg>
+                        some commits co-authored by <b>Slendy</b>
+                </div>
+                <div class="mt-3">
+                    <pre style="white-space: pre-line;">
+                        <b>Block people you don't like.</b>
+
+                        LBP Union Engineer <b>Zaprit</b> coming to the rescue, completing work on a much-needed
+                        Lighthouse Feature. You will now be able to block users that are causing you trouble,
+                        which will prevent them from doing a few things.
+
+                         * Reviewing your levels
+                         * Commenting on your Profile
+                         * Joining you in-game (potentially)
+
+                        This will also prevent you from being able to view that user's comments.
+                    </pre>
+                </div>
+            </div>
+            </div>
+
+                <!-- <div class="blankslate">
                     <h3 class="blankslate-heading">Nothing here... yet.</h3>
                     <p>We've got nothing to share as of right now. Check back soon!</p>
-                </div>
+                </div> -->
 
             </div>
             <!-- <div class="Layout-divider"></div> -->
             <div class="Layout-sidebar">
-                <b>ProjectLighthouse</b> <span class="branch-name"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-git-branch"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>&nbsp;main</span>
-                <p style="padding-top: 10px; padding-bottom: 10px;">
+                
+                <nav aria-label="Breadcrumb">
+                    <ol>
+                      <li class="breadcrumb-item">
+                        <a href="https://github.com/LBPUnion">LBPUnion</a>
+                      </li>
+                      <li class="breadcrumb-item breadcrumb-item-selected">
+                        <a href="https://github.com/LBPUnion/ProjectLighthouse" aria-current="page"><b>ProjectLighthouse</b></a> <span class="branch-name"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-git-branch"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>&nbsp;main</span>
+                      </li>
+                    </ol>
+                  </nav>
+                <hr />
+                <p class="mb-3">
                     Project Lighthouse is a clean-room, open-source custom server for LittleBigPlanet.
                 </p>
-                <div class="tooltipped tooltipped-n" aria-label="40 open issues, 6 open pull requests">
+                <span class="Label mr-1 mb-1 Label--accent">asp-net</span>
+                <span class="Label mr-1 mb-1 Label--accent">lighthouse</span>
+                <span class="Label mr-1 mb-1 Label--accent">lbp</span>
+                <span class="Label mr-1 mb-1 Label--accent">private-server</span>
+                <span class="Label mr-1 mb-1 Label--accent">littlebigplanet</span>
+                <span class="Label mr-1 mb-1 Label--accent">custom-server</span>
+                <div class="tooltipped tooltipped-n mt-4 mb-4" aria-label="40 open issues, 6 open pull requests">
                     <span class="Progress">
                       <span class="Progress-item color-bg-success-emphasis" style="width: 100%;"></span>
                       <span class="Progress-item color-bg-attention-emphasis" style="width: 40%;"></span>
                       <span class="Progress-item color-bg-danger-emphasis" style="width: 6%;"></span>
                     </span>
-                  </div>
+                </div>
+                <button onclick="window.location.href = 'https://github.com/LBPUnion/ProjectLighthouse'" class="btn mr-2" type="button">Contribute on GitHub</button>
             </div>
         </div>
     </div>
-
-    <!-- <div class="blankslate">
-        <h3 class="blankslate-heading">There is no activity to report.</h3>
-        <p>Check back later.</p>
-    </div> -->
 
 </body>
 </html>
