@@ -16,13 +16,15 @@
           </a>
         </div>
         <div class="Header-item mr-0">
-            <span class="Label mr-1 Label--warning" style="background-color:white;">Development v18</span>
+            <span class="Label mr-1 Label--warning" style="background-color:white;">
+                Development v18
+            </span>
         </div>
     </div>
 
     <div style="padding: 20px;">
         <div class="Layout Layout--divided">
-            <div class="Layout-main">
+            <div class="Layout-main anim-fade-in">
 
             <div class="TimelineItem">
             <div class="TimelineItem-badge color-bg-success-emphasis color-fg-on-emphasis">
@@ -36,7 +38,7 @@
                     <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
                         <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
                     </svg>
-                        27 commits<br>
+                        27 commits             <br>
                     <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
                             <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
                     </svg>
@@ -90,7 +92,7 @@
                 <span class="Label mr-1 mb-1 Label--accent">littlebigplanet</span>
                 <span class="Label mr-1 mb-1 Label--accent">custom-server</span>
                 <div class="tooltipped tooltipped-n mt-4 mb-4" aria-label="40 open issues, 6 open pull requests">
-                    <span class="Progress">
+                    <span class="Progress anim-grow-x">
                       <span class="Progress-item color-bg-success-emphasis" style="width: 100%;"></span>
                       <span class="Progress-item color-bg-attention-emphasis" style="width: 40%;"></span>
                       <span class="Progress-item color-bg-danger-emphasis" style="width: 6%;"></span>
@@ -100,6 +102,21 @@
             </div>
         </div>
     </div>
-
+    <div style="position:fixed;bottom:0;" class="p-1 anim-scale-in">
+        <div class="Toast Toast--warning">
+          <span class="Toast-icon">
+            <!-- <%= octicon "alert" %> -->
+            <svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-alert" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"
+              />
+            </svg>
+          </span>
+          <span class="Toast-content">Project Lighthouse is <strong>not production-ready.</strong> We currently do not provide
+                                        support for the project. All source code is provided as-is, without warranty. You have
+                                        been warned.</span>
+        </div>
+      </div>
 </body>
 </html>
