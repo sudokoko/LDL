@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
     <title>Lighthouse Wire @ LBPU</title>
+    <script>
+        function hideToast() {
+            var toastElement = document.getElementById('Toast-element');
+            toastElement.style.display = 'none';
+        }
+    </script>
 </head>
 <body>
 
@@ -103,7 +109,7 @@
         </div>
     </div>
     <div style="position:fixed;bottom:0;" class="p-1 anim-scale-in">
-        <div class="Toast Toast--warning">
+        <div id="Toast-element" class="Toast Toast--warning">
           <span class="Toast-icon">
             <!-- <%= octicon "alert" %> -->
             <svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-alert" aria-hidden="true">
@@ -115,7 +121,7 @@
           </span>
           <span class="Toast-content">Project Lighthouse is <strong>not production-ready.</strong> We currently do not provide
                                         support for the project. All source code is provided as-is, without warranty. You have
-                                        been warned.</span>
+                                        been warned. <a onclick="hideToast()">Dismiss</a></span>
         </div>
       </div>
 </body>
